@@ -1,13 +1,8 @@
-﻿namespace SampleDb.Chinook.Entities;
+﻿// ReSharper disable CollectionNeverUpdated.Global
+namespace SampleDb.Chinook.Entities;
 
 public partial class Track
 {
-    // public Track()
-    // {
-    //     InvoiceLines = new HashSet<InvoiceLine>();
-    //     Playlists = new HashSet<Playlist>();
-    // }
-
     public int TrackId { get; set; }
     public string Name { get; set; } = null!;
     public int? AlbumId { get; set; }
@@ -22,6 +17,5 @@ public partial class Track
     public Genre? Genre { get; set; }
     public MediaType? MediaType { get; set; }
     public ICollection<InvoiceLine>? InvoiceLines { get; set; }
-
     public ICollection<Playlist>? Playlists { get; set; }
 }

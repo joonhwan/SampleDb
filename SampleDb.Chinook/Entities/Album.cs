@@ -1,14 +1,9 @@
 ﻿// ReSharper disable PartialTypeWithSinglePart
-
+// ReSharper disable CollectionNeverUpdated.Global
 namespace SampleDb.Chinook.Entities;
 
 public partial class Album
 {
-    public Album()
-    {
-        // Tracks = new HashSet<Track>();
-    }
-
     public int AlbumId { get; set; }
     public string Title { get; set; } = null!;
     public int ArtistId { get; set; }

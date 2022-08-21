@@ -1,4 +1,5 @@
-﻿namespace SampleDb.Chinook.Entities;
+﻿// ReSharper disable CollectionNeverUpdated.Global
+namespace SampleDb.Chinook.Entities;
 
 public partial class Customer
 {

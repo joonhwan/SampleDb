@@ -23,4 +23,9 @@
       <ProjectReference Include="..\SampleDb.Chinook\SampleDb.Chinook.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="chinook-seed.sql" />
+      <EmbeddedResource Include="chinook-seed.sql" />
+    </ItemGroup>
+
 </Project>

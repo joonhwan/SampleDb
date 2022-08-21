@@ -1,13 +1,8 @@
-﻿namespace SampleDb.Chinook.Entities;
+﻿// ReSharper disable CollectionNeverUpdated.Global
+namespace SampleDb.Chinook.Entities;
 
 public partial class Employee
 {
-    // public Employee()
-    // {
-    //     Customers = new HashSet<Customer>();
-    //     InverseReportsToNavigation = new HashSet<Employee>();
-    // }
-
     public int EmployeeId { get; set; }
     public string LastName { get; set; } = null!;
     public string FirstName { get; set; } = null!;
@@ -24,7 +19,7 @@ public partial class Employee
     public string? Fax { get; set; }
     public string? Email { get; set; }
 
-    public Employee? ReportsToNavigation { get; set; }
+    public Employee? EmployeeToBeReported { get; set; }
     public ICollection<Customer>? Customers { get; set; }
-    public ICollection<Employee>? InverseReportsToNavigation { get; set; }
+    public ICollection<Employee>? EmployeesToReport { get; set; }
 }

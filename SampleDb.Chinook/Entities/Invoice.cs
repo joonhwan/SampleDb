@@ -2,11 +2,6 @@
 
 public partial class Invoice
 {
-    // public Invoice()
-    // {
-    //     InvoiceLines = new HashSet<InvoiceLine>();
-    // }
-
     public int InvoiceId { get; set; }
     public int CustomerId { get; set; }
     public DateTime InvoiceDate { get; set; }

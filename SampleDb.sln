@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDb.Chinook.PostgreSQL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDb.Chinook", "SampleDb.Chinook\SampleDb.Chinook.csproj", "{710054D5-517C-4476-BB5A-E50F3BE05F8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDb.Tools", "SampleDb.Tools\SampleDb.Tools.csproj", "{8DA597CE-D183-48B3-AF84-404556EBF6F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{710054D5-517C-4476-BB5A-E50F3BE05F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{710054D5-517C-4476-BB5A-E50F3BE05F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{710054D5-517C-4476-BB5A-E50F3BE05F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA597CE-D183-48B3-AF84-404556EBF6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA597CE-D183-48B3-AF84-404556EBF6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA597CE-D183-48B3-AF84-404556EBF6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA597CE-D183-48B3-AF84-404556EBF6F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
