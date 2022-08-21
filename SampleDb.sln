@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDb.Chinook.PostgreSQL", "SampleDb.Chinook.PostgreSQL\SampleDb.Chinook.PostgreSQL.csproj", "{5858B0A9-3D0B-4435-B360-0077BEB8D896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDb.Chinook", "SampleDb.Chinook\SampleDb.Chinook.csproj", "{710054D5-517C-4476-BB5A-E50F3BE05F8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5858B0A9-3D0B-4435-B360-0077BEB8D896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5858B0A9-3D0B-4435-B360-0077BEB8D896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5858B0A9-3D0B-4435-B360-0077BEB8D896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5858B0A9-3D0B-4435-B360-0077BEB8D896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710054D5-517C-4476-BB5A-E50F3BE05F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710054D5-517C-4476-BB5A-E50F3BE05F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710054D5-517C-4476-BB5A-E50F3BE05F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710054D5-517C-4476-BB5A-E50F3BE05F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
